@@ -4,7 +4,7 @@ export const FooterSubscribe: React.FC = () => {
   return (
     <footer style={{ padding: '20px', borderTop: '1px solid #ccc', marginTop: '40px' }}>
       <h3>Subscribe to our newsletter</h3>
-      <form onSubmit={(e) => e.preventDefault()}>
+      <form>
         <input type="email" placeholder="Your email" required />
         <button type="submit">Subscribe</button>
       </form>
