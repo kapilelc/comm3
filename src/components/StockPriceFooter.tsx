@@ -22,7 +22,7 @@ export const StockPriceFooter: React.FC = () => {
 
   return (
     <div style={{ textAlign: 'center', padding: '10px', fontSize: '14px', backgroundColor: '#f8f8f8' }}>
-      Current Stock Price: <strong>{price}</strong>
+      Stock Price: <strong>{price}</strong>
     </div>
   );
 };
