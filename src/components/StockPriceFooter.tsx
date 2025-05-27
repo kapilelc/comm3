@@ -8,7 +8,7 @@ export const StockPriceFooter: React.FC = () => {
     const fetchStockPrice = async () => {
       try {
         // Simulate API call
-        const fakePrice = '$134.56';
+        const fakePrice = '$28';
         setTimeout(() => setPrice(fakePrice), 1000);
       } catch (error) {
         setPrice('Error fetching price');
