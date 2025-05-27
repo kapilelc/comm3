@@ -16,8 +16,8 @@ export const CookiePreferences: React.FC = () => {
   return (
     <div style={{ padding: '10px', border: '1px solid #ccc', marginTop: '20px' }}>
       <h4>Cookie Preferences</h4>
-      <button onClick={() => setCookie('allCookiesAccepted', 'true')}>Accept All Cookies</button>
-      <button onClick={clearCookies} style={{ marginLeft: '10px' }}>Remove All Cookies</button>
+      <button>Accept All Cookies</button>
+      <button>Remove All Cookies</button>
     </div>
   );
 };
