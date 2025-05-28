@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import axios from 'axios';
+// import axios from 'axios';
 import { ContactFormFields } from '../types/form';
 
 interface Props {
@@ -21,12 +21,13 @@ export const ContactForm: React.FC<Props> = ({ lang, apiEndpoint }) => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    try {
+    console.log(formData);
+    /* try {
       await axios.post(apiEndpoint, formData);
       alert('Form submitted successfully!');
     } catch (error) {
       alert('Error submitting form.');
-    }
+    } */
   };
 
   return (
