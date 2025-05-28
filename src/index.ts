@@ -4,3 +4,4 @@ export * from './components/CookiePreferences';
 export * from './components/StockPriceFooter';
 export * from './components/ContactForm';
 export * from './types/product';
+export * from './types/form';
